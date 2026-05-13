@@ -1,0 +1,91 @@
+/* styles.css */
+    * {
+        padding : 0;
+        margin : 0;
+    }
+    #header {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+    .circle-image {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-right: 20px;
+        margin-bottom: 30px; 
+    }
+    body {
+        background-color:#FFFBF5 ;
+        font-family:'Courier New', Courier, monospace;
+        color: #4A2F12;
+        margin-left:7% ;
+        margin-right: 10%;    
+    }
+    .aboutme, .tools {
+        background-color:rgba(94, 65, 9, 0.531);
+        color: #FFFBF5 ;
+        border-radius: 30px;
+        padding: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        line-height: 1.2;   
+    }
+    .edu, .exp{
+        background-color: #E6D6C3;
+        border-radius: 30px;
+        padding: 30px;
+        margin-bottom: 20px;
+        line-height: 1.2;   
+    }
+    .aboutme a {
+        text-decoration: none;
+        color: #FFFBF5;
+    }
+    .aboutme a:hover {
+        text-shadow: 0 0 8px currentColor;
+    }
+    .edu a {
+        text-decoration: none;
+        color:#4A2F12;
+    }
+    .edu a:hover {
+        text-shadow: 0 0 8px currentColor;
+    }
+    #nav {
+        display: flex;
+    }
+    a.navlink {
+        color:#4A2F12;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow-x: auto;
+        padding: 10px;
+        background-color: #E6D6C3;
+        font-size: larger;
+        width:50%;
+        margin:25px;
+        text-align: center;
+        margin-top: 30px;
+        text-decoration: none;        
+    }
+    #footer {
+        margin-top: 30px;
+    }
+    span.work {
+        font-style: italic;
+    }
+    #tile {
+        display: flex;
+    }
+    .footing {
+        padding: 20px;
+        padding-top: 5px;
+        width: 50%;
+        text-align:center;
+        margin: auto;
+        margin-top:10px;
+    }
+  
